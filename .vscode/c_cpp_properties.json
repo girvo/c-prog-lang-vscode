@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/usr/local/include/",
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
