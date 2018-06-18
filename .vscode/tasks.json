@@ -14,6 +14,18 @@
         "focus": true,
         "panel": "shared"
       }
+    },
+    {
+      "label": "leaks",
+      "type": "shell",
+      "command": "leaks -atExit -- `echo ${file} | sed 's/\\.c//g'`",
+      "problemMatcher": [],
+      "presentation": {
+        "echo": false,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared"
+      }
     }
   ]
 }
